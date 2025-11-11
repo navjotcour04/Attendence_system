@@ -8,4 +8,4 @@ const percent = ((present / total) * 100).toFixed(2);
 document.getElementById("totalStudents").textContent = total;
 document.getElementById("presentStudents").textContent = present;
 document.getElementById("absentStudents").textContent = absent;
-document.getElementById("attendancePercent").textContent = percent + "%";
+
